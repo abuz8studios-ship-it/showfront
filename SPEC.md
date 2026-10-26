@@ -118,3 +118,9 @@ The experience brings the buyer; the agent sells. Two jobs:
 - **Muse Spark Open / Glimmer** (open weights, Baseten + Pegasus): the Closer's second engine — the same agent running on Meta open weights (open-weights bonus lane; also the privacy lane for dealer data).
 - **Muse Code**: the build tool — credited in README as tooling, never presented as a model in the product.
 Every model call is logged per vehicle run; the run report (acceptance probe 6) lists which models touched the car — tooling usage is provable, not claimed.
+
+## 12. BUILD ORDER REVISION — AGENT FIRST (Ahmad, Oct 26)
+Founder's strength and speed is agents ("I can have an agent built in an hour"); Gaussian splatting is the slow, uncertain layer. Therefore:
+- **Day 1 (Oct 27) leads with THE CLOSER** — agent core first: persona + books frameworks + facts-only guardrail + test-drive booking flow, running against a sample vehicle record. The demo spine is agent-led.
+- **Fast car path:** SAM 3D from one photo (no filming, no splat training) is the default car visual. **The splat is the wow layer, never the load-bearing wall** — the Oct 30 go/no-go stands, and the demo succeeds without it.
+- Order of construction: Agent → SAM 3D cars → God's Eye fly-in → splat lot (if checkpoint passes) → commercial/Postiz wrap.
