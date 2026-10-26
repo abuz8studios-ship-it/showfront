@@ -1,10 +1,10 @@
 # Showfront
 
-**An autonomous showroom for anyone with a car.**
+**An autonomous showroom for car enthusiasts.**
 
-You photograph your car. Showfront turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial, and a written listing - then publishes the package by itself.
+You photograph your car - because you love it, and it deserves to be seen properly. Showfront turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial, and a written listing - then publishes the package by itself.
 
-For a dealership, it runs on every new arrival. For an enthusiast or private seller, it runs on the car in your driveway - to sell it, or to show it the way it deserves.
+For an enthusiast, it runs on the car in your driveway - your build, your classic, the one you're selling to someone who'll love it next. For a dealership, it runs on every new arrival. Same button, same love.
 
 Built for the **Meta Global AI Developer Hackathon** (Oct 26 - Nov 4, 2026) - **Indie track**, theme **Build for Your World** - by Ahmad Odeh, solo founder of ABUZ8 LLC (Dayton, Ohio).
 
@@ -23,7 +23,7 @@ Full build spec: [SPEC.md](SPEC.md)
 
 ## Why
 
-Anyone selling a car loses money to bad photos - independent dealers, and the millions of private sellers whose driveway photos compete against dealer-grade presentation. Showfront gives any seller, lot or driveway, the presentation power of a national franchise, the same day. Real-world test cases: DriveSmart Auto Sales (Dayton, OH), the founder's brother's dealership - and the founder's own cars, as the enthusiast case.
+Everyone who has a car is an enthusiast to a degree - and anyone who loves their car loses something when it's presented with bad photos. Private sellers compete against dealer-grade presentation; small dealers compete against national chains. Showfront gives the person who loves the car the presentation it deserves. Real-world test cases: DriveSmart Auto Sales (Dayton, OH), the founder's brother's dealership - and the founder's own cars, the enthusiast case.
 
 ## Built during the hackathon - disclosure
 

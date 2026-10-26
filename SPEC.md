@@ -3,7 +3,7 @@ Meta Global AI Developer Hackathon · Indie track · Theme: Build for Your World
 Builder: Ahmad Odeh (solo), ABUZ8 LLC · Window: Oct 26 – Nov 4, 2026 · Submit Nov 3
 
 ## 1. SCOPE
-**One sentence:** Anyone with a car photographs it; Showfront — new code, written entirely during the hackathon — turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial, and a written listing, then publishes the package by itself. **Audience (Ahmad's direction, Oct 26): NOT dealers-only — dealerships AND any car enthusiast / private seller.** A dealer runs it for every arrival; an enthusiast runs it for the car in their driveway — to sell it, or just to show it the way it deserves.
+**One sentence:** A car enthusiast photographs their car; Showfront — new code, written entirely during the hackathon — turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial, and a written listing, then publishes the package by itself. **Audience (Ahmad's direction, Oct 26, refined same day): FOR CAR ENTHUSIASTS — not dealers-only, and not "anyone with a car" either. His framing: everyone who has a car is an enthusiast to a degree, so the product speaks to people who love their car — the collector, the builder, the private seller who cares how their car is presented, and the dealer whose lot is full of cars they love.** A dealer runs it for every arrival; an enthusiast runs it for the car in their driveway — to sell it, or just to show it the way it deserves.
 
 **In scope (the demo slice — ONE car, ONE lot, ONE flow, bulletproof):**
 1. Photo intake: a folder/phone upload of 12–40 walk-around photos of one vehicle.
