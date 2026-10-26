@@ -107,3 +107,14 @@ The experience brings the buyer; the agent sells. Two jobs:
 - **Showfront (this build)** = the world layer: God's Eye place + splat lot + SAM 3D cars
 **Technical truth:** splats cannot open doors — the world is splat, the CARS are interactive meshes (SAM 3D GLB, later rigged: doors/hood/trunk open, interior view = captured 360 interior). Hybrid is the architecture.
 **Ladder:** L1 Showfront (hackathon, Nov 2026: fly-in, walkable lot, tappable 3D cars, the Closer, commercial, auto-post) → L2 Interactive Car (one hero car: open the door, sit inside, start it) → L3 Dealer Simulator (full fusion: inventory brain + DMS + finance + signature inside the world; this is the company-scale product, the true successor to the LotVue year).
+
+## 11. THE COUNCIL — every Meta model, one job each (Ahmad's order, Oct 26)
+- **SAM 3.1** (Meta Model API): segments every car and lot object; masks feed everything downstream.
+- **SAM 3D Objects** (Meta open weights, on Pegasus): one photo + SAM mask → textured 3D car (GLB).
+- **Muse Image** (API): scene dressing, commercial key frames, listing hero images.
+- **Muse Spark** (API): the Closer's live brain + listing copywriter — fast, in the experience.
+- **Muse Wonder** (API): the director/verifier — writes the commercial script + storyboard, then VERIFIES Spark's listing against the vehicle record before anything publishes (verifiable-agent pattern: no unverified fact ships).
+- **Muse Voice Transcribe** (API): turns the dealer's spoken walkthrough + buyer voice messages into structured facts the pipeline and the Closer use.
+- **Muse Spark Open / Glimmer** (open weights, Baseten + Pegasus): the Closer's second engine — the same agent running on Meta open weights (open-weights bonus lane; also the privacy lane for dealer data).
+- **Muse Code**: the build tool — credited in README as tooling, never presented as a model in the product.
+Every model call is logged per vehicle run; the run report (acceptance probe 6) lists which models touched the car — tooling usage is provable, not claimed.
