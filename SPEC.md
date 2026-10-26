@@ -3,7 +3,7 @@ Meta Global AI Developer Hackathon · Indie track · Theme: Build for Your World
 Builder: Ahmad Odeh (solo), ABUZ8 LLC · Window: Oct 26 – Nov 4, 2026 · Submit Nov 3
 
 ## 1. SCOPE
-**One sentence:** A dealer photographs a car the day it lands on the lot; Showfront — new code, written entirely during the hackathon — turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial for the store, and a written listing, then publishes the package by itself.
+**One sentence:** Anyone with a car photographs it; Showfront — new code, written entirely during the hackathon — turns those photos into an interactive 360 spin, a 3D Gaussian-splat walkaround a buyer can explore from home, a finished video commercial, and a written listing, then publishes the package by itself. **Audience (Ahmad's direction, Oct 26): NOT dealers-only — dealerships AND any car enthusiast / private seller.** A dealer runs it for every arrival; an enthusiast runs it for the car in their driveway — to sell it, or just to show it the way it deserves.
 
 **In scope (the demo slice — ONE car, ONE lot, ONE flow, bulletproof):**
 1. Photo intake: a folder/phone upload of 12–40 walk-around photos of one vehicle.
@@ -24,9 +24,9 @@ Builder: Ahmad Odeh (solo), ABUZ8 LLC · Window: Oct 26 – Nov 4, 2026 · Submi
 - Anti-project check: not an image analyzer (imaging is step 2 of an 8-step autonomous pipeline), not a dashboard (output is a published buyer experience, not charts), not RAG, not a chatbot, not Streamlit.
 
 ## 2. PRD — the product in plain words
-- **User 1 (dealer):** drops photos of a new arrival into Showfront, adds year/make/model/mileage/price in one small form, presses Run. Touches nothing else.
-- **User 2 (buyer):** opens a link. Walks around the car in 3D from their couch. Watches the store's commercial. Reads an honest listing. Sends a lead.
-- **Why it matters (Impact, 30%):** independent dealers lose sales to bad photos and slow posting. Cars photographed badly sit; cars presented like a national franchise sell. Showfront gives a two-person lot the presentation power of a national chain, the same day the car arrives. Firsthand test case: DriveSmart Auto Sales (Dayton, OH), the founder's brother's dealership.
+- **User 1 (the car's owner — dealer OR enthusiast/private seller):** drops photos of the car into Showfront, adds year/make/model/mileage/price in one small form, presses Run. Touches nothing else. For a dealer it's every new arrival; for an enthusiast it's their own car — listed for sale, or showcased as a build.
+- **User 2 (buyer / viewer):** opens a link. Walks around the car in 3D from their couch. Watches the commercial. Reads an honest listing. Sends a lead / contacts the seller.
+- **Why it matters (Impact, 30%):** anyone selling a car loses money to bad photos — independent dealers AND the millions of private sellers on marketplaces, whose driveway photos compete against dealer-grade presentation. Showfront gives any seller, lot or driveway, the presentation power of a national franchise, the same day. Firsthand test case: DriveSmart Auto Sales (Dayton, OH), the founder's brother's dealership — with the founder's own cars as the enthusiast test case. Audience expansion is POSITIONING only: the demo slice stays one car, one flow — the same pipeline serves both users unchanged.
 - **Success = the demo runs end-to-end live, on a real car, in under 10 minutes of processing.**
 
 ## 3. TECHNICAL SPEC
