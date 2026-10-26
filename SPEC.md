@@ -95,3 +95,15 @@ The experience brings the buyer; the agent sells. Two jobs:
 **Brain:** built from Ahmad's own sales library (the 66-books system): Jeremy Miner (NEPQ question frameworks), Alex Hormozi (offer framing, value stacking), Andy Elliott (closing energy, word tracks), Robert Greene (buyer psychology), Adam Young. FRAMEWORKS AND PRINCIPLES, not copied book text. Honesty guardrails (his brand): AI disclosure where required, no invented car facts, no pressure tactics that misrepresent — teacher-seller, not trick-seller.
 **Why it's in the Meta build:** it is the agentic layer of Showfront (Best Agentic Use-Case bonus lane) and the revenue bridge to Mohammed: Showfront makes the showcase, the Closer works the leads it captures.
 **Credits map (confirmed Oct 26 by Ahmad):** Meta Model API $150 (SAM 3.1 / Muse Spark / Muse Image calls) · Modal ~$30 (GPU bursts: splat training + SAM 3D jobs as endpoints) · Baseten account live (Muse Spark Open inference, hackathon string meta-models/muse-spark-open-1026; $100 partner request pending review).
+
+## 10. NORTH STAR — DEALER SIMULATOR (Ahmad, Oct 26)
+"Microsoft Flight Simulator, but for buying a car." Flight Sim's paradigm: real-world data streamed into a 1:1 world you move through. Dealer Simulator: the dealership and its cars as a living 1:1 world — walk the lot, open the door, get in, start it, configure it, then do the real deal without leaving the world.
+**The fusion Ahmad named:**
+- **vAuto** = the pricing/inventory brain (market data, days-supply, pricing intelligence)
+- **DealerCenter + Dealertrack + Frazer** = the DMS/CRM backbone (deals, financing, paperwork, compliance)
+- **AutoTempest** = the shopper front door (every listing, one search)
+- **Mercedes/BMW** = the experience standard (configurator-grade polish, cinematic brand film)
+- **The Closer (Module 9)** = the salesman inside the world
+- **Showfront (this build)** = the world layer: God's Eye place + splat lot + SAM 3D cars
+**Technical truth:** splats cannot open doors — the world is splat, the CARS are interactive meshes (SAM 3D GLB, later rigged: doors/hood/trunk open, interior view = captured 360 interior). Hybrid is the architecture.
+**Ladder:** L1 Showfront (hackathon, Nov 2026: fly-in, walkable lot, tappable 3D cars, the Closer, commercial, auto-post) → L2 Interactive Car (one hero car: open the door, sit inside, start it) → L3 Dealer Simulator (full fusion: inventory brain + DMS + finance + signature inside the world; this is the company-scale product, the true successor to the LotVue year).
