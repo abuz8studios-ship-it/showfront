@@ -80,3 +80,10 @@ Builder: Ahmad Odeh (solo), ABUZ8 LLC · Window: Oct 26 – Nov 4, 2026 · Submi
 - Splat quality from phone photos is the #1 technical risk → fallback: splat from the spin frame set; if splat fails the probe by Oct 30, the entry narrows to spin + commercial (still a complete pipeline) and splat moves to roadmap — decided Oct 30, never Nov 3.
 - Meta API credits lag (up to 2 business days) → claim filed Oct 26; Baseten/Modal partner credits as bridge.
 - Postiz publish failure → manual post of the same package with the run report as proof of generation; publish leg retried once.
+
+## 8. ARCHITECTURE v2 — research inputs (Ahmad, Oct 26, from his own viewing)
+Three layers, each with a named source:
+1. **God's Eye layer (place):** Bilawal Sidhu's open-source God's Eye View (github.com/bilawalsidhu/gods-eye-view) — map/satellite data assembles the location in 3D; camera flies sky → city → lot. (License/stack audit = Aisha's night job Oct 26.)
+2. **Splat layer (truth on the ground):** filmed walkthrough video → frames → splat trained locally on Pegasus (Postshot or LichtFeld Studio; training is now ~3x faster per Radiance Fields' Oct 2026 reporting) → streamed in the browser via an open splat viewer (Aholo / Spark.js class: LOD + streaming + collision, so a buyer can WALK the lot, not just orbit). UE5 (NanoGS-class plugins) is the later Ready-Player-One client, not the hackathon slice.
+3. **Car layer (Meta-native):** SAM 3.1 (Meta Model API) segments the car; Meta's SAM 3D Objects (open weights, facebookresearch/sam-3d-objects, SAM License) reconstructs a textured 3D model of the car from even ONE photo — GLB/PLY out. SAM 3.1's mask is literally SAM 3D's required input: the Meta stack chains. SAM 3D runs on Pegasus (needs ~16GB+ VRAM; the 5090s have 32GB). Fallback/quality path: multi-photo splat of the hero car when time allows.
+Demo arc (updated): God's-eye flight to the lot → walk the splat lot in the browser → tap the hero car → its SAM 3D model spins → commercial (rendered from the walkaround) → package auto-posts.
