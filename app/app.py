@@ -159,11 +159,20 @@ def closer_answer(history):
 
 # ---------------------------------------------------------------- page
 def spin_frames():
+    """Local photo files win; otherwise the licensed set streams from its
+    canonical Wikimedia Commons URLs (frames.json — see CREDITS.md).
+    fetch_assets.sh downloads the same set for fully local runs."""
     assets = os.path.join(HERE, "assets", "car")
-    if not os.path.isdir(assets):
-        return []
-    return sorted("/assets/car/" + n for n in os.listdir(assets)
-                  if n.lower().endswith((".jpg", ".jpeg", ".png", ".webp")))
+    if os.path.isdir(assets):
+        local = sorted("/assets/car/" + n for n in os.listdir(assets)
+                       if n.lower().endswith((".jpg", ".jpeg", ".png", ".webp")))
+        if local:
+            return local
+    manifest = os.path.join(assets, "frames.json")
+    if os.path.isfile(manifest):
+        with open(manifest) as f:
+            return json.load(f)
+    return []
 
 
 PAGE_TEMPLATE = """<!DOCTYPE html>
