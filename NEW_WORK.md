@@ -15,3 +15,32 @@
 
 ## Team
 Solo participant: Ahmad Odeh (ABUZ8 LLC). AI coding agents were used as tools under his direction.
+
+---
+
+## Addendum — Oct 30, 2026 (build relocation + scope narrowing, disclosed)
+
+On Oct 30, 2026, an area-wide power and internet outage took the founder's
+build machine (Pegasus) offline indefinitely. The in-progress local build
+had never been pushed and became unreachable. From Oct 30, the build
+continues on the team's cloud machine, in this repository, inside the
+same hackathon window — the git history shows exactly which commits are
+which.
+
+Per the spec's own fallback rule (decided Oct 30, never Nov 3), the demo
+slice narrows to the agent-first flow: God's-Eye fly-in → 360 photo spin →
+the Closer → honest listing → test-drive booking. Gaussian splatting,
+SAM 3D reconstruction, the commercial render, and Postiz auto-publish move
+to the roadmap for this entry and are NOT claimed as delivered.
+
+Two further disclosures, in the open:
+- The Closer in `app/` runs against a SAMPLE vehicle record (labeled as
+  such in the record itself), per the spec's agent-first build order.
+- Development and testing of the Closer used a non-Meta model substitute
+  while the Meta API key was unreachable on the offline machine. Every run
+  log records the provider that actually answered; no development run is
+  presented as Meta tooling. The submission configuration targets Muse
+  Spark Open (Meta open weights) via Baseten.
+- The demo photo set is a freely licensed set, credited in
+  `app/assets/car/CREDITS.md`, standing in for the founder's vehicle
+  photographs, which are on the offline machine.
