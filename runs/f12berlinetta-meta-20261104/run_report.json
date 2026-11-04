@@ -1,0 +1,825 @@
+{
+  "run_id": "f12berlinetta-meta-20261104",
+  "status": "DONE",
+  "note": "",
+  "started": "2026-11-04T21:44:26Z",
+  "finished": "2026-11-04T21:46:44Z",
+  "total_elapsed_s": 137.83,
+  "vehicle": {
+    "exterior_color": "White",
+    "location": "West Chester, OH",
+    "lot_name": "Unlimited Auto Group of West Chester",
+    "make": "Ferrari",
+    "mileage": 18368,
+    "model": "F12berlinetta",
+    "notes": "V12 RWD coupe with dark interior. Listed price includes dealer fees.",
+    "price": 370433,
+    "seller_phone": "(513) 801-1465",
+    "seller_type": "dealer",
+    "transmission": "Automatic",
+    "trim": "Coupe 2D",
+    "year": 2013
+  },
+  "stages": [
+    {
+      "stage": "intake",
+      "provider": "local:intake-validator",
+      "at": "2026-11-04T21:44:26Z",
+      "elapsed_s": 0.14,
+      "inputs": [
+        {
+          "path": "assets\\f12berlinetta\\vehicle_form.json",
+          "sha256": "afe95914cb14a48c383af0e5d5a66bdc058859b423598b005e8688dddb019c00",
+          "bytes": 394
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_000.jpg",
+          "sha256": "983c28251224f6562fc30d5e14b77ab12ec922b98faadbecc993f92f912d16fe",
+          "bytes": 121962
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_030.jpg",
+          "sha256": "005dfbd9eddd18b4db067d69595d8c6c3d7d1a4e3966b8d550f341d6d6c3befe",
+          "bytes": 132762
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_060.jpg",
+          "sha256": "a689a52c0300df9ce6e8807a55610e70692396eea235d64490682442c50be071",
+          "bytes": 152528
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_090.jpg",
+          "sha256": "7323a77696efff5a71d761041bd84989b534eb9dccbd84b7957be44596e4a23f",
+          "bytes": 136847
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_120.jpg",
+          "sha256": "e325af70d2ea544f9a694a7c2ee453065865c4c5e0aafc42e11bf2391ee2cfb9",
+          "bytes": 121370
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_150.jpg",
+          "sha256": "de5ecd6626e4587facb1a3e7019113096ca4cb4620ea1f42bf2d366d31b4aa4d",
+          "bytes": 110135
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_180.jpg",
+          "sha256": "3884b54aca700c72acb98abf4d4e3543b2a2f1e06f837b38cd825eb5685e76d5",
+          "bytes": 114429
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_210.jpg",
+          "sha256": "935c5efcf4767ceb5f21a2c579024e245abdbdd4691b736dc2adc949fdc5a0c7",
+          "bytes": 139269
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_240.jpg",
+          "sha256": "eb128d1caafad2a7882a10a8d46b08ef12b3ac17e0d85c906dbc585752f94010",
+          "bytes": 150942
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_270.jpg",
+          "sha256": "eb8505105943a683b7902ed34ed2be7fe746ad2d54a34ea294c94ecab5830d0c",
+          "bytes": 164144
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_300.jpg",
+          "sha256": "cad487047bd958c632278b62bc23d9f81afcbe29f6c09062c332d542d0e417d7",
+          "bytes": 124875
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_330.jpg",
+          "sha256": "974eb56387eb18050854b163e7b75f50ea1aa86e382830053d35489239eb77c1",
+          "bytes": 116534
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\intake.json",
+          "sha256": "d86f18258db371e837c42e58b0a0afe0b32448651ff75470ede2113e89244fcf",
+          "bytes": 4712
+        }
+      ],
+      "extra": {
+        "count": 12,
+        "blurry": 0,
+        "dupes": 0,
+        "palette": [
+          "#abbed4",
+          "#0c0f19",
+          "#8090a1",
+          "#acc0d5",
+          "#8a99a7"
+        ],
+        "coverage_ok": true,
+        "blur_backend": "cv2"
+      }
+    },
+    {
+      "stage": "segment",
+      "provider": "meta:sam-3.1",
+      "at": "2026-11-04T21:44:42Z",
+      "elapsed_s": 16.05,
+      "inputs": [
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_000.jpg",
+          "sha256": "983c28251224f6562fc30d5e14b77ab12ec922b98faadbecc993f92f912d16fe",
+          "bytes": 121962
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_030.jpg",
+          "sha256": "005dfbd9eddd18b4db067d69595d8c6c3d7d1a4e3966b8d550f341d6d6c3befe",
+          "bytes": 132762
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_060.jpg",
+          "sha256": "a689a52c0300df9ce6e8807a55610e70692396eea235d64490682442c50be071",
+          "bytes": 152528
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_090.jpg",
+          "sha256": "7323a77696efff5a71d761041bd84989b534eb9dccbd84b7957be44596e4a23f",
+          "bytes": 136847
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_120.jpg",
+          "sha256": "e325af70d2ea544f9a694a7c2ee453065865c4c5e0aafc42e11bf2391ee2cfb9",
+          "bytes": 121370
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_150.jpg",
+          "sha256": "de5ecd6626e4587facb1a3e7019113096ca4cb4620ea1f42bf2d366d31b4aa4d",
+          "bytes": 110135
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_180.jpg",
+          "sha256": "3884b54aca700c72acb98abf4d4e3543b2a2f1e06f837b38cd825eb5685e76d5",
+          "bytes": 114429
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_210.jpg",
+          "sha256": "935c5efcf4767ceb5f21a2c579024e245abdbdd4691b736dc2adc949fdc5a0c7",
+          "bytes": 139269
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_240.jpg",
+          "sha256": "eb128d1caafad2a7882a10a8d46b08ef12b3ac17e0d85c906dbc585752f94010",
+          "bytes": 150942
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_270.jpg",
+          "sha256": "eb8505105943a683b7902ed34ed2be7fe746ad2d54a34ea294c94ecab5830d0c",
+          "bytes": 164144
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_300.jpg",
+          "sha256": "cad487047bd958c632278b62bc23d9f81afcbe29f6c09062c332d542d0e417d7",
+          "bytes": 124875
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_330.jpg",
+          "sha256": "974eb56387eb18050854b163e7b75f50ea1aa86e382830053d35489239eb77c1",
+          "bytes": 116534
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_000.png",
+          "sha256": "cde92f3b0d33c7cd7725928b6ab104b26434e95d8576a759bb4a8ba807060a1c",
+          "bytes": 3806
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_030.png",
+          "sha256": "4d5f5714485b6507060e6da18b55fc31ea1950b1f5e452356f7f4468b369600d",
+          "bytes": 3957
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_060.png",
+          "sha256": "adf79811f6f594c38cbb1d5bb94fb7af2988a6d1bf9956704d2390d0386f863f",
+          "bytes": 2776
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_090.png",
+          "sha256": "945802355ff912923ecd1f1d313b62e75189f49a83990d090c9a7de708809030",
+          "bytes": 3514
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_120.png",
+          "sha256": "14d4bc7ee7e22c62df502f9c9e02e0a9c8eabfffa31872ab77febb9ad25233f2",
+          "bytes": 4180
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_150.png",
+          "sha256": "a119690e42f32b85c8887cece761d315fa4b8d9cf246e8f4c58bf0eb7011e9f8",
+          "bytes": 4137
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_180.png",
+          "sha256": "3669d606c6194f7335568f8714eabf55a858f4f06585b87df55675ffc85e67a2",
+          "bytes": 4249
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_210.png",
+          "sha256": "9c6d4f07a00f2b86ec1f615c0f45b9b86067a310eb317509044f14c1101c213f",
+          "bytes": 3718
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_240.png",
+          "sha256": "d29a1072c37b7cf96a9f1b02644f178e1b473be9b7ea5c3af48f3b08736375ea",
+          "bytes": 2778
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_270.png",
+          "sha256": "562d5f81852b12a98ae55b6ebf44573c5e7efc1f6a45d8464b38312b1a852697",
+          "bytes": 3188
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_300.png",
+          "sha256": "cc16f551d09e52145c173a8e6fdcfbd52e138cb2154459fc506f12a7c49bc9f0",
+          "bytes": 3673
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_330.png",
+          "sha256": "8a98611721aa7a789d3a737d4294b9b49faff0f62fd4778fe0e083395eb0835d",
+          "bytes": 4271
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\mask_qc.json",
+          "sha256": "a0c156139a16f00c67bf771cf16f07d7766f3c8657ce02e7f06a591838f86140",
+          "bytes": 2418
+        }
+      ],
+      "extra": {
+        "mean_coverage": 0.3883,
+        "api_log_sha": "56a37a2eaa75474001f10e83e25e9ce7ca0b2532a83d7a6c6760a918fe962e11"
+      }
+    },
+    {
+      "stage": "scene",
+      "provider": "meta:muse-image",
+      "at": "2026-11-04T21:44:50Z",
+      "elapsed_s": 24.52,
+      "inputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\scene.png",
+          "sha256": "a5acc19c437aedf3d45a0840b8f43ac618ef05ab2d5b55e80f7b7c413b7b064f",
+          "bytes": 1195932
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_000.png",
+          "sha256": "cde92f3b0d33c7cd7725928b6ab104b26434e95d8576a759bb4a8ba807060a1c",
+          "bytes": 3806
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_030.png",
+          "sha256": "4d5f5714485b6507060e6da18b55fc31ea1950b1f5e452356f7f4468b369600d",
+          "bytes": 3957
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_060.png",
+          "sha256": "adf79811f6f594c38cbb1d5bb94fb7af2988a6d1bf9956704d2390d0386f863f",
+          "bytes": 2776
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_090.png",
+          "sha256": "945802355ff912923ecd1f1d313b62e75189f49a83990d090c9a7de708809030",
+          "bytes": 3514
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_120.png",
+          "sha256": "14d4bc7ee7e22c62df502f9c9e02e0a9c8eabfffa31872ab77febb9ad25233f2",
+          "bytes": 4180
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_150.png",
+          "sha256": "a119690e42f32b85c8887cece761d315fa4b8d9cf246e8f4c58bf0eb7011e9f8",
+          "bytes": 4137
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_180.png",
+          "sha256": "3669d606c6194f7335568f8714eabf55a858f4f06585b87df55675ffc85e67a2",
+          "bytes": 4249
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_210.png",
+          "sha256": "9c6d4f07a00f2b86ec1f615c0f45b9b86067a310eb317509044f14c1101c213f",
+          "bytes": 3718
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_240.png",
+          "sha256": "d29a1072c37b7cf96a9f1b02644f178e1b473be9b7ea5c3af48f3b08736375ea",
+          "bytes": 2778
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_270.png",
+          "sha256": "562d5f81852b12a98ae55b6ebf44573c5e7efc1f6a45d8464b38312b1a852697",
+          "bytes": 3188
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_300.png",
+          "sha256": "cc16f551d09e52145c173a8e6fdcfbd52e138cb2154459fc506f12a7c49bc9f0",
+          "bytes": 3673
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\masks\\f12_angle_330.png",
+          "sha256": "8a98611721aa7a789d3a737d4294b9b49faff0f62fd4778fe0e083395eb0835d",
+          "bytes": 4271
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_000.jpg",
+          "sha256": "28548910566d6e4c48df99aeb73fe0c11f8f8cccea0e20d589daf05afed8da0f",
+          "bytes": 270287
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_030.jpg",
+          "sha256": "b7cf2f009907a140a187a7885591f29cd497166a157390576db8afd563218669",
+          "bytes": 274081
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_060.jpg",
+          "sha256": "d2398f9ca75a47cb66d7d0ccb919ca894b74921610632fb0300b9ac2cb994717",
+          "bytes": 257478
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_090.jpg",
+          "sha256": "64180437a3a084565b262163ea25b13399981b441c4d7c227747f5aa72d9b32c",
+          "bytes": 265759
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_120.jpg",
+          "sha256": "4405491a6756dd3d6ee1c064854ff626b0cf4e6bb19575fee4ea82eeb9ff8af1",
+          "bytes": 272016
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_150.jpg",
+          "sha256": "9de3ef9cedd56af7d09470a334bd75b12aa100d772dded3a2ef3c80101b7615b",
+          "bytes": 265961
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_180.jpg",
+          "sha256": "81c44e141ad7e1807d023b1df2dc938fafe442dbcb016bf51cb1ff5e6d2152fc",
+          "bytes": 268687
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_210.jpg",
+          "sha256": "253d3346e138440eec33a14a0af5ca763076e9862cf827d95c8d55f2e3d57632",
+          "bytes": 261855
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_240.jpg",
+          "sha256": "0a0bc92c94bc3306403be26f4583d966fbe43d3e5ea53f6d6d09fa757c9438a1",
+          "bytes": 254116
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_270.jpg",
+          "sha256": "fb2fa99d3974aa9aadf5dec50ae4c33e20ab59f1dac8aee201ca802ffb90ded0",
+          "bytes": 263667
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_300.jpg",
+          "sha256": "a72a8cc29bdc4bf555ee8cd1bdb9a247aa869ae4fcedf56c321294a097e32258",
+          "bytes": 271682
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_330.jpg",
+          "sha256": "4e7b2dad72582230d64c0df84bc66caac906cb3476c75cf17c20474b93a54e35",
+          "bytes": 272580
+        }
+      ],
+      "extra": {
+        "frames": 12
+      }
+    },
+    {
+      "stage": "spin",
+      "provider": "local:imageio-ffmpeg-spin",
+      "at": "2026-11-04T21:44:51Z",
+      "elapsed_s": 24.83,
+      "inputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_000.jpg",
+          "sha256": "28548910566d6e4c48df99aeb73fe0c11f8f8cccea0e20d589daf05afed8da0f",
+          "bytes": 270287
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_030.jpg",
+          "sha256": "b7cf2f009907a140a187a7885591f29cd497166a157390576db8afd563218669",
+          "bytes": 274081
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_060.jpg",
+          "sha256": "d2398f9ca75a47cb66d7d0ccb919ca894b74921610632fb0300b9ac2cb994717",
+          "bytes": 257478
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_090.jpg",
+          "sha256": "64180437a3a084565b262163ea25b13399981b441c4d7c227747f5aa72d9b32c",
+          "bytes": 265759
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_120.jpg",
+          "sha256": "4405491a6756dd3d6ee1c064854ff626b0cf4e6bb19575fee4ea82eeb9ff8af1",
+          "bytes": 272016
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_150.jpg",
+          "sha256": "9de3ef9cedd56af7d09470a334bd75b12aa100d772dded3a2ef3c80101b7615b",
+          "bytes": 265961
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_180.jpg",
+          "sha256": "81c44e141ad7e1807d023b1df2dc938fafe442dbcb016bf51cb1ff5e6d2152fc",
+          "bytes": 268687
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_210.jpg",
+          "sha256": "253d3346e138440eec33a14a0af5ca763076e9862cf827d95c8d55f2e3d57632",
+          "bytes": 261855
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_240.jpg",
+          "sha256": "0a0bc92c94bc3306403be26f4583d966fbe43d3e5ea53f6d6d09fa757c9438a1",
+          "bytes": 254116
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_270.jpg",
+          "sha256": "fb2fa99d3974aa9aadf5dec50ae4c33e20ab59f1dac8aee201ca802ffb90ded0",
+          "bytes": 263667
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_300.jpg",
+          "sha256": "a72a8cc29bdc4bf555ee8cd1bdb9a247aa869ae4fcedf56c321294a097e32258",
+          "bytes": 271682
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\composited\\f12_angle_330.jpg",
+          "sha256": "4e7b2dad72582230d64c0df84bc66caac906cb3476c75cf17c20474b93a54e35",
+          "bytes": 272580
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\spin\\spin.mp4",
+          "sha256": "352cfea78a5545a16a418f934655f5d1df24fd447cb8d8701d53792768265002",
+          "bytes": 479230
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\spin\\spin_data.json",
+          "sha256": "9e188516f28b118f9df3880563c6c887f555fb4d85babcb23c3a2e2436972cdf",
+          "bytes": 923
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\spin\\spin.json",
+          "sha256": "9e188516f28b118f9df3880563c6c887f555fb4d85babcb23c3a2e2436972cdf",
+          "bytes": 923
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\spin\\spin_qc.json",
+          "sha256": "f9bb1fbece05418cd51722c85a730766921ce4bf9b7d7423942b3ab4b8fd1436",
+          "bytes": 1286
+        }
+      ],
+      "extra": {
+        "count": 12,
+        "full_360": true,
+        "missing_quadrants": [],
+        "order_method": "filename/exif-angle-token"
+      }
+    },
+    {
+      "stage": "splat",
+      "provider": "local:proxy-splat",
+      "at": "2026-11-04T21:45:17Z",
+      "elapsed_s": 50.93,
+      "inputs": [
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_000.jpg",
+          "sha256": "983c28251224f6562fc30d5e14b77ab12ec922b98faadbecc993f92f912d16fe",
+          "bytes": 121962
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_030.jpg",
+          "sha256": "005dfbd9eddd18b4db067d69595d8c6c3d7d1a4e3966b8d550f341d6d6c3befe",
+          "bytes": 132762
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_060.jpg",
+          "sha256": "a689a52c0300df9ce6e8807a55610e70692396eea235d64490682442c50be071",
+          "bytes": 152528
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_090.jpg",
+          "sha256": "7323a77696efff5a71d761041bd84989b534eb9dccbd84b7957be44596e4a23f",
+          "bytes": 136847
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_120.jpg",
+          "sha256": "e325af70d2ea544f9a694a7c2ee453065865c4c5e0aafc42e11bf2391ee2cfb9",
+          "bytes": 121370
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_150.jpg",
+          "sha256": "de5ecd6626e4587facb1a3e7019113096ca4cb4620ea1f42bf2d366d31b4aa4d",
+          "bytes": 110135
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_180.jpg",
+          "sha256": "3884b54aca700c72acb98abf4d4e3543b2a2f1e06f837b38cd825eb5685e76d5",
+          "bytes": 114429
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_210.jpg",
+          "sha256": "935c5efcf4767ceb5f21a2c579024e245abdbdd4691b736dc2adc949fdc5a0c7",
+          "bytes": 139269
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_240.jpg",
+          "sha256": "eb128d1caafad2a7882a10a8d46b08ef12b3ac17e0d85c906dbc585752f94010",
+          "bytes": 150942
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_270.jpg",
+          "sha256": "eb8505105943a683b7902ed34ed2be7fe746ad2d54a34ea294c94ecab5830d0c",
+          "bytes": 164144
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_300.jpg",
+          "sha256": "cad487047bd958c632278b62bc23d9f81afcbe29f6c09062c332d542d0e417d7",
+          "bytes": 124875
+        },
+        {
+          "path": "assets\\f12berlinetta\\spin\\f12_angle_330.jpg",
+          "sha256": "974eb56387eb18050854b163e7b75f50ea1aa86e382830053d35489239eb77c1",
+          "bytes": 116534
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\splat\\car.ply",
+          "sha256": "ca4c2c6136b37ddc6bf2f6f9124d8a24c1196cecd2c00d4232e18c24b0876f9a",
+          "bytes": 900179
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\splat\\splat.ply",
+          "sha256": "ca4c2c6136b37ddc6bf2f6f9124d8a24c1196cecd2c00d4232e18c24b0876f9a",
+          "bytes": 900179
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\splat\\splat.json",
+          "sha256": "d9b8c53b9911e5227cfbdad289a9146827e4e2efa3c19c073b1e43e9319fceab",
+          "bytes": 698
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\splat\\splat_meta.json",
+          "sha256": "08b2d79abf2a234feb1ae7ab4dc965d5aa9cf593e7f609800cdd48125cca7b14",
+          "bytes": 401
+        }
+      ],
+      "extra": {
+        "proxy": true,
+        "synthetic_demo": true,
+        "points": 60011,
+        "pegasus": "pegasus exit 4:   Set XFORMERS_MORE_DETAILS=1 for more details"
+      }
+    },
+    {
+      "stage": "mesh3d",
+      "provider": "skipped",
+      "at": "2026-11-04T21:45:17Z",
+      "elapsed_s": 50.95,
+      "inputs": [],
+      "outputs": [],
+      "extra": {
+        "skipped": "SHOWFRONT_MESH3D=off"
+      }
+    },
+    {
+      "stage": "interior",
+      "provider": "hloc+opencv-stitcher",
+      "at": "2026-11-04T21:45:17Z",
+      "elapsed_s": 50.95,
+      "inputs": [],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\interior\\interior.json",
+          "sha256": "3944b0131e31c6e4f2023e2b65de7988e662f2175961095bfe73d3f130653141",
+          "bytes": 158
+        }
+      ],
+      "extra": {
+        "candidates": 0,
+        "eyepoints": 0
+      }
+    },
+    {
+      "stage": "copy",
+      "provider": "meta:muse-spark+meta:muse-wonder",
+      "at": "2026-11-04T21:46:36Z",
+      "elapsed_s": 130.06,
+      "inputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\intake.json",
+          "sha256": "d86f18258db371e837c42e58b0a0afe0b32448651ff75470ede2113e89244fcf",
+          "bytes": 4712
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\listing.json",
+          "sha256": "e9ee1d597c459a6d7abe375273f3bab8ce3e5dfc81e7ac5b697ccea6692a545b",
+          "bytes": 1796
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\captions.json",
+          "sha256": "a4ff5ce0a83627d9014b951e6d770695d1204239f02f45bf4e0523a7cde88cea",
+          "bytes": 1135
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\script.json",
+          "sha256": "732576d7d1edfa792d2603de37c89bd365c17030116ea76385705744f9d7724e",
+          "bytes": 1436
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\listing.md",
+          "sha256": "a646fd54958d899de174c2a82411859a1cc3af53a68158389224b39eabbc2fdc",
+          "bytes": 1053
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\script.txt",
+          "sha256": "3e2137d4edb73036086110230fdc320e7df90c5607aaa9b8dc90bfdfe27d640e",
+          "bytes": 1107
+        }
+      ],
+      "extra": {
+        "script_words": 81,
+        "violations": 0,
+        "features": 16
+      }
+    },
+    {
+      "stage": "commercial",
+      "provider": "local:ffmpeg-commercial+local:sapi",
+      "at": "2026-11-04T21:46:43Z",
+      "elapsed_s": 137.67,
+      "inputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\script.json",
+          "sha256": "732576d7d1edfa792d2603de37c89bd365c17030116ea76385705744f9d7724e",
+          "bytes": 1436
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\spin\\spin.mp4",
+          "sha256": "352cfea78a5545a16a418f934655f5d1df24fd447cb8d8701d53792768265002",
+          "bytes": 479230
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\commercial\\commercial.mp4",
+          "sha256": "ae32726e1568d6e3abf984a75cc52c8778e1e3918c1efe0e0b68c951bd2a6e9e",
+          "bytes": 3174522
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\commercial\\commercial.srt",
+          "sha256": "8791688e6d60054a02c4688b1465d8c5183e6f0bfd446b0e87ecd38b4b567f3c",
+          "bytes": 1319
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\commercial\\commercial_meta.json",
+          "sha256": "8e17a68b6af4cb18091dbba739e73a67389c44139df24d1d86decf8808928d76",
+          "bytes": 929
+        }
+      ],
+      "extra": {
+        "duration_s": 76.7,
+        "voiceover": "sapi:offline-windows-voice",
+        "script_sha": "ef13f85dc72c",
+        "script_matches_audio": true,
+        "footage_source": "spin_mp4",
+        "subtitles_burned": true
+      }
+    },
+    {
+      "stage": "publish",
+      "provider": "local:staged (no POSTIZ_API_URL/KEY)",
+      "at": "2026-11-04T21:46:43Z",
+      "elapsed_s": 137.69,
+      "inputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\copy\\listing.json",
+          "sha256": "e9ee1d597c459a6d7abe375273f3bab8ce3e5dfc81e7ac5b697ccea6692a545b",
+          "bytes": 1796
+        },
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\commercial\\commercial.mp4",
+          "sha256": "ae32726e1568d6e3abf984a75cc52c8778e1e3918c1efe0e0b68c951bd2a6e9e",
+          "bytes": 3174522
+        }
+      ],
+      "outputs": [
+        {
+          "path": "runs\\f12berlinetta-meta-20261104\\stage\\publish\\publish_manifest.json",
+          "sha256": "2d526c4ce1ea5c8e9f99d48a5ba9fe2a57f090bc2f580f3c1d0113c9b8fa37bd",
+          "bytes": 1680
+        }
+      ],
+      "extra": {
+        "status": "staged-local",
+        "urls": {}
+      }
+    }
+  ],
+  "models_touched": [
+    "hloc+opencv-stitcher",
+    "local:ffmpeg-commercial+local:sapi",
+    "local:imageio-ffmpeg-spin",
+    "local:intake-validator",
+    "local:proxy-splat",
+    "local:staged (no POSTIZ_API_URL/KEY)",
+    "meta:muse-image",
+    "meta:muse-spark+meta:muse-wonder",
+    "meta:sam-3.1",
+    "skipped"
+  ],
+  "acceptance_probes": [
+    {
+      "probe": "photos-in-range",
+      "stage": "intake",
+      "status": "pass",
+      "detail": "12 unique photos (need 12-40)",
+      "evidence": "stage/intake.json"
+    },
+    {
+      "probe": "blur-qc",
+      "stage": "intake",
+      "status": "pass",
+      "detail": "0 blurry flagged (backend: cv2)",
+      "evidence": "stage/intake.json"
+    },
+    {
+      "probe": "segment-mask-qc",
+      "stage": "segment",
+      "status": "pass",
+      "detail": "mean_coverage=0.3883",
+      "evidence": "stage/mask_qc.json"
+    },
+    {
+      "probe": "spin-full-360",
+      "stage": "spin",
+      "status": "pass",
+      "detail": "full_360=True missing=[]",
+      "evidence": "stage/spin/spin_qc.json"
+    },
+    {
+      "probe": "splat-present",
+      "stage": "splat",
+      "status": "pass",
+      "detail": "splat.ply present=True synthetic_demo=True",
+      "evidence": "stage/splat/splat_meta.json"
+    },
+    {
+      "probe": "mesh3d-true3d",
+      "stage": "mesh3d",
+      "status": "not-run",
+      "detail": "skipped: SHOWFRONT_MESH3D=off",
+      "evidence": "stage/mesh3d/mesh3d.json"
+    },
+    {
+      "probe": "interior-eyes",
+      "stage": "interior",
+      "status": "fail",
+      "detail": "0 eye points / 0 details",
+      "evidence": "stage/interior/interior.json"
+    },
+    {
+      "probe": "copy-verified",
+      "stage": "copy",
+      "status": "pass",
+      "detail": "violations=0 script_words=81 features=16",
+      "evidence": "stage/copy/listing.json"
+    },
+    {
+      "probe": "commercial-script-audio-match",
+      "stage": "commercial",
+      "status": "pass",
+      "detail": "script_matches_audio=True duration_s=76.7 voiceover=sapi:offline-windows-voice",
+      "evidence": "stage/commercial/commercial_meta.json"
+    },
+    {
+      "probe": "publish-honest",
+      "stage": "publish",
+      "status": "pass",
+      "detail": "status=staged-local urls=0",
+      "evidence": "stage/publish/publish_manifest.json"
+    },
+    {
+      "probe": "closer-guardrail",
+      "stage": "closer",
+      "status": "pass",
+      "detail": "price reply verifies clean; sunroof refused=True; violations=0",
+      "evidence": "closer/SYSTEM_PROMPT.md"
+    }
+  ]
+}
