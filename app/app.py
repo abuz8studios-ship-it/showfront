@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Showfront — salvage build (Meta Global AI Developer Hackathon, Indie track).
+"""Showfront — salvage build (Meta Global AI Developer Hackathon, Startup track).
 
 Written Oct 30, 2026 on Aisha's machine after the Pegasus build became
 unreachable (area-wide power/internet outage). Implements the spec's
@@ -216,7 +216,7 @@ not on the sheet — a sunroof, a warranty — and watch it refuse instead of in
 <div class="row"><input id="bkwhen" placeholder="Preferred day/time (e.g. Saturday 11am)">
 <button onclick="book()">Book it</button></div>
 <p class="small" id="bkout"></p></div>
-<p class="small">Showfront — built for the Meta Global AI Developer Hackathon (Indie track),
+<p class="small">Showfront — built for the Meta Global AI Developer Hackathon (Startup track),
 Oct 26 – Nov 4, 2026, by Ahmad Odeh / ABUZ8 LLC. Verification law: CLAIMED &ne; DONE.</p>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>

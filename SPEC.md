@@ -1,5 +1,5 @@
 # SHOWFRONT — Build Spec
-Meta Global AI Developer Hackathon · Indie track · Theme: Build for Your World
+Meta Global AI Developer Hackathon · Startup track · Theme: Build for Your World
 Builder: Ahmad Odeh (solo), ABUZ8 LLC · Window: Oct 26 – Nov 4, 2026 · Submit Nov 3
 
 ## 1. SCOPE
