@@ -8,6 +8,10 @@ For an enthusiast, it runs on the car in your driveway - your build, your classi
 
 Built for the **Meta Global AI Developer Hackathon** (Oct 26 - Nov 4, 2026) - **Startup track**, theme **Build for Your World** - by Ahmad Odeh, solo founder of ABUZ8 LLC (Dayton, Ohio).
 
+## The application
+
+Showfront is a Windows desktop application, not a web demo. Its installer (ShowfrontSetup.exe) sets it up with one UAC click, and the application runs the full pipeline on the user's own machine: drop in a walk-around photo set (a folder, a video, or a listing URL) plus a small vehicle form, and it produces the 360 spin, the 3D walkaround, the finished commercial, and the verified listing, then assembles the web showroom. The live demo linked in this submission is one showroom the application produced (2013 Ferrari F12berlinetta). On the final day the same application also ran a second, unrelated car (2007 Mercedes-Benz S-Class) end-to-end from its phone photos, with Meta's models live in the run report.
+
 ## The pipeline
 
 1. **Intake** - a walk-around photo set of one vehicle + a small vehicle form.
